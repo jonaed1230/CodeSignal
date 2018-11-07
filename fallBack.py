@@ -47,8 +47,6 @@ def fallBack(time):
             new_time.pop()
             reversed_time = "".join(new_time)
             
-            
-            
         else:
             #grabing first two elements of list which means two digit hour(10 - 12) and replacing it with its previous hour
             adjusted_time = str(int(''.join(new_time[0:2])) - 1)
